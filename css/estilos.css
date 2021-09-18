@@ -15,3 +15,94 @@ h1,h2{
 
 
 }
+
+header{
+
+background-image: url('../img/recetaspay.jpg');
+height:650px ;
+display:flex    ; /*  el borde lo agranda */
+justify-content: center; /* el h1 lo centramos o lo ponemos a la posicion q querramos con flex -end */
+
+}
+header h1 {
+
+background-color:transparent ;
+/*  el pading es la diferencia que tenemos del texto al borde  */
+padding: 150px ; 
+width: 500px;
+height: 50px;
+
+}
+
+nav {  /*  le damos color al menu del comienzo  */
+
+    background-color: transparent ;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+
+}
+ nav ol li {
+    background-color: cadetblue;
+    display: inline; /* quita la lista ordenada */
+    color: rgb(241, 239, 239);
+    padding: 15px;
+    margin: 0px 100px;
+
+ }
+
+ nav ol li a{
+    text-decoration: none; /* le quita la linea */
+    color:black;
+
+ }
+ nav ol li:hover {    /* hover es cuando posicionamos el cursor sobre ese elemento  */
+background-color:yellowgreen;
+color:black;
+box-shadow: 5px 3px; /* te agrega un borde */
+
+
+ }
+
+ nav ol li a:hover{
+
+color: white;
+
+ }
+
+article {
+
+padding-top: 100px;
+background: linear-gradient( rgba(0, 128, 0, 0.678),white )  ;
+width: 80%;
+margin-left: 10%;
+
+
+}
+
+
+article#Moto{
+
+background: linear-gradient( gray,white   );
+
+
+}
+
+article#PZanahoria{
+
+
+background: linear-gradient(rgba(255, 166, 0, 0.479), white);
+
+
+}
+article#Limon{
+  
+
+    background: linear-gradient(rgba(255, 255, 0, 0.555),white);
+}
+article#Galletitas{
+
+
+    background: linear-gradient(rgb(90, 68, 68),white);
+}
