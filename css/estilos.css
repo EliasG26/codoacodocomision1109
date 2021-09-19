@@ -19,10 +19,13 @@ h1,h2{
 header{
 
 background-image: url('../img/recetaspay.jpg');
-height:650px ;
+height:150px ;
 display:flex    ; /*  el borde lo agranda */
-justify-content: center; /* el h1 lo centramos o lo ponemos a la posicion q querramos con flex -end */
-
+justify-content: flex-end; /* el h1 lo centramos o lo ponemos a la posicion q querramos con flex -end */
+position: fixed;
+width: 80%;
+top: 0px;
+margin-left: 10%;
 }
 header h1 {
 
@@ -75,7 +78,7 @@ article {
 
 padding-top: 100px;
 background: linear-gradient( rgba(0, 128, 0, 0.678),white )  ;
-width: 80%;
+width: 80% !important;
 margin-left: 10%;
 
 
@@ -105,4 +108,47 @@ article#Galletitas{
 
 
     background: linear-gradient(rgb(90, 68, 68),white);
+}
+
+.rojo{
+
+    background-color: red;
+    width: 25%;
+    height: 300px;
+    color: yellow;
+    font-size: 25px;
+    margin: 5px;
+}
+#negro{
+    background-color: rgb(15, 14, 14);
+    width: 25%;
+    height: 300px;
+    color: rgb(243, 243, 243);
+    font-size: 25px; /* le da el tamaño a la letra */
+
+
+}
+#Principal{
+
+    display:flex;
+    justify-content: center;
+
+
+}
+main{
+
+    /*width: 80%;*/
+
+}
+
+h4 font {
+
+    color: black ;
+
+
+}
+h4 font{
+
+color: blue;
+
 }
