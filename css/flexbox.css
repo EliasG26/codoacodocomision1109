@@ -1,0 +1,54 @@
+#justify,#otro1,#otro2{    /*  # se usa para indicar que es un id  */
+
+    display: flex;
+    /*justify-content: center;       al centro  */
+    /*justify-content: flex-end;     posicion al final   */
+    /*justify-content:flex-start ;     por defecto  */
+    /* justify-content:space-around;        */
+    /* justify-content: space-between;   */
+    /* justify-content:  space-evenly;   */
+
+}
+.primer{
+
+   /* width: 150px;
+    height: 150px;*/
+    width: 30%;
+    background-color: cornflowerblue;
+    float: left;
+
+}
+.primer::after{
+ /* no copiar el texto contenido de la pagina*/
+    content: "Este es despues del contenido";
+    color: cyan;
+    font-size: 20px;
+
+
+}
+.primer::before{
+
+    content: "Este es antes del contenido";
+    color: white;
+    font-size: 20px;
+
+}
+.primer::first-letter{
+
+    color: blue;
+    font-size: 30px;
+
+}
+li{
+
+    display: inline;
+
+
+}
+.principal{
+    display: flex;
+
+    flex-wrap: nowrap;
+
+
+}
